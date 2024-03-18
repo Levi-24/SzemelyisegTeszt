@@ -1,0 +1,23 @@
+﻿<Window x:Class="SzemelyisegTeszt.SubWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzemelyisegTeszt"
+        mc:Ignorable="d"
+        Title="SubWindow" Height="250" Width="500">
+    <Grid Background="#FFDEDEDE">
+        <Label Content="Válaszok" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="1. Feladat:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
+        <Label Content="2. Feladat:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="3. Feladat:" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="4. Feladat:" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="5. Feladat:" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top"/>
+        
+        <Label x:Name="lbl1" Content="" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Background="#FF87DAB6" Width="330" BorderBrush="#FF171414"/>
+        <Label x:Name="lbl2" Content="" HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" Background="#FF87DAB6" Width="330" BorderBrush="#FF171414"/>
+        <Label x:Name="lbl3" Content="" HorizontalAlignment="Center" Margin="0,93,0,0" VerticalAlignment="Top" Background="#FF87DAB6" Width="330" BorderBrush="#FF171414"/>
+        <Label x:Name="lbl4" Content="" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top" Background="#FF87DAB6" Width="330" BorderBrush="#FF171414"/>
+        <Label x:Name="lbl5" Content="" HorizontalAlignment="Center" Margin="0,145,0,0" VerticalAlignment="Top" Background="#FF87DAB6" Width="330" BorderBrush="#FF171414"/>
+    </Grid>
+</Window>
